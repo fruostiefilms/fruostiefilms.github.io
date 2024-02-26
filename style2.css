@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f0f0; /* Light background color */
+    color: #444; /* Darker text color */
+    font-family: Arial, sans-serif; /* Specify a font for better visibility */
+}
+
+header {
+    background-color: #ddd; /* Light background color for the header */
+}
+
+nav ul li a {
+    color: #333; /* Darker text color for navigation links */
+}
+
+#hero, #about, #services, #films, #partner, #crew {
+    background-color: #ddd; /* Light background color for sections */
+    color: #333; /* Darker text color for section content */
+}
+
+#films img {
+    border: 2px solid #333; /* Darker border color for the image */
+}
+
+#partner a {
+    color: #4CAF50; /* Green color for partner links */
+}
+
+#crew p {
+    color: #FFD700; /* Gold color for crew member names */
+}
+
+footer {
+    background-color: #ddd; /* Light background color for the footer */
+    color: #444; /* Darker text color for the footer */
+}
+
+#theme-toggle {
+    background-color: #292929; /* Green color for the toggle button */
+    color: #eee; /* Lighter text color for the toggle button */
+    padding: 10px;
+    cursor: pointer;
+}
