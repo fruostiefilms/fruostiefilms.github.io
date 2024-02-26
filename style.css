@@ -51,37 +51,3 @@ footer {
 .service {
     margin-bottom: 30px;
 }
-
-/* Dark mode specific styles */
-body.dark-mode {
-    background-color: #111;
-    color: #fff;
-}
-
-header.dark-mode {
-    background-color: #333;
-}
-
-nav a.dark-mode {
-    color: #fff;
-}
-
-section.dark-mode {
-    background-color: #333;
-    color: #fff;
-}
-
-#hero.dark-mode {
-    background-color: #555;
-    color: #fff;
-}
-
-footer.dark-mode {
-    background-color: #333;
-}
-
-.service.dark-mode {
-    border: 1px solid #555;
-}
-
-/* Add more styling as needed */
