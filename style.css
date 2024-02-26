@@ -3,13 +3,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #222;
-    color: #fff;
+    background-color: #fff; /* Light background color */
+    color: #333; /* Dark text color */
 }
 
 header {
-    background-color: #111;
-    color: #fff;
+    background-color: #eee; /* Light header background color */
+    color: #333; /* Dark text color */
     padding: 10px;
     text-align: center;
 }
@@ -27,7 +27,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #333; /* Dark text color */
     font-weight: bold;
 }
 
@@ -37,13 +37,13 @@ section {
 }
 
 #hero {
-    background-color: #333;
-    color: #fff;
+    background-color: #f5f5f5; /* Light hero background color */
+    color: #333; /* Dark text color */
 }
 
 footer {
-    background-color: #111;
-    color: #fff;
+    background-color: #eee; /* Light footer background color */
+    color: #333; /* Dark text color */
     padding: 10px;
     text-align: center;
 }
