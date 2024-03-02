@@ -1,5 +1,5 @@
 body {
-    background-color: #1a1a1a;
+    background-color: #222;
     color: #ffffff;
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #222;
     padding: 20px;
     text-align: center;
 }
@@ -42,9 +42,9 @@ section {
 #about,
 #services,
 #films,
-#partner,
-#crew {
-    background-color: #333;
+#crew,
+#games {
+    background-color: #222;
     padding: 30px;
     margin-top: 20px;
 }
