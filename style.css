@@ -1,3 +1,8 @@
+:root {
+    --border-color: hex(#ffff);
+}
+
+
 body {
     background-color: #1a1a1a;
     color: #ffffff;
@@ -7,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #191919;
+    background-color: #1a1a1a;
     padding: 20px;
     text-align: center;
 }
@@ -35,7 +40,7 @@ section {
 }
 
 #hero {
-    background-color: #191919;
+    background-color: #1a1a1a;
     padding: 50px;
 }
 
@@ -44,9 +49,10 @@ section {
 #films,
 #crew,
 #games {
-    background-color: #191919;
+    background-color: #1a1a1a;
     padding: 30px;
     margin-top: 20px;
+    border-top: 1px solid var(--border-color);
 }
 
 #films img {
@@ -60,4 +66,5 @@ footer {
     position: bottom;
     bottom: 0;
     width: 100%;
+    border-top: 1px solid var(--border-color);
 }
