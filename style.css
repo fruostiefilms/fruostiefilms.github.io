@@ -1,5 +1,5 @@
 body {
-    background-color: #222;
+    background-color: #1a1a1a;
     color: #ffffff;
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -35,7 +35,7 @@ section {
 }
 
 #hero {
-    background-color: #222;
+    background-color: #191919;
     padding: 50px;
 }
 
