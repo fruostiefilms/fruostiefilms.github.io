@@ -44,7 +44,7 @@ section {
 #films,
 #crew,
 #games {
-    background-color: #222;
+    background-color: #191919;
     padding: 30px;
     margin-top: 20px;
 }
@@ -54,7 +54,7 @@ section {
 }
 
 footer {
-    background-color: #191919;
+    background-color: #1a1a1a;
     padding: 10px;
     text-align: center;
     position: bottom;
