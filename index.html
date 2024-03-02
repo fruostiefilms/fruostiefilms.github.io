@@ -41,8 +41,17 @@
     }
 
     nav {
-      background-color: #333;
+      background-color: #282828;
       padding: 10px;
+      display: flex;
+      justify-content: space-between; /* Align items at the start and end */
+      align-items: center; /* Center vertically within the nav bar */
+    }
+
+    nav h1 {
+      color: #282828;
+      margin: 0;
+      font-size: 20px;
     }
 
     nav ul {
@@ -50,10 +59,11 @@
       margin: 0;
       padding: 0;
       display: flex;
+      align-items: center; /* Center vertically within the nav bar */
     }
 
     nav li {
-      margin-right: 20px;
+      margin-left: 20px;
     }
 
     nav a {
@@ -65,7 +75,7 @@
     }
 
     nav a:hover {
-      color: #ff9900; /* Change color on hover */
+      color: #b3ff00; /* Change color on hover */
     }
     </style>
 </head>
@@ -80,8 +90,8 @@
 </head>
 <body>
     <header>
-        <h1>Fruostie Films</h1>
         <nav>
+            <h1>Fruostie Films</h1>
             <ul>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#who">Who are we?</a></li>
