@@ -74,6 +74,6 @@ footer {
     text-align: center;
     position: bottom;
     bottom: 0;
-    width: 100%;
+    width: 95%;
     border-top: 1px solid var(--border-color);
 }
