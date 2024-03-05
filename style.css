@@ -70,10 +70,10 @@ section {
 
 footer {
     background-color: #1a1a1a;
-    padding: 10px;
+    padding: 0px;
     text-align: center;
     position: bottom;
     bottom: 0;
-    width: 95%;
+    width: 99%;
     border-top: 1px solid var(--border-color);
 }
