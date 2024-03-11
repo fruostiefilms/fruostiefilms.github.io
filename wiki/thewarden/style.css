@@ -1,0 +1,77 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #222;
+    color: #fff;
+    overflow: auto; /* Ensure the body doesn't overflow its content */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    position: relative;
+}
+
+nav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('your-blur-image.jpg'); /* Replace with your blur image */
+    background-size: cover;
+    filter: blur(10px); /* Adjust the blur value */
+    z-index: -1;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    color: #ddd;
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #b3ff00; /* Change color on hover */
+}
+
+article {
+    box-sizing: border-box;
+    float: left;
+    width: 80%; /* Adjust the width */
+    padding: 20px;
+    background-color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
