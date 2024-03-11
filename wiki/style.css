@@ -5,7 +5,7 @@ body {
     margin: 20px;
     background-color: #222;
     color: #fff;
-    overflow: hidden; /* Ensure the body doesn't overflow its content */
+    overflow: auto; /* Ensure the body doesn't overflow its content */
 }
 
 header {
@@ -42,7 +42,7 @@ nav a {
     color: #ddd;
     position: relative;
     z-index: 1;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 nav a:hover {
@@ -67,6 +67,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    position: relative;
 }
 
 ul {
