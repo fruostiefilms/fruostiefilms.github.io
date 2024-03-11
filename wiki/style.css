@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #222;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    background: #444;
+    padding: 20px;
+    height: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    color: #ddd;
+}
+
+nav a:hover {
+    color: #b3ff00; /* Change color on hover */
+  }
+
+article {
+    float: left;
+    width: 70%;
+    padding: 20px;
+    background-color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 99%;
+}
