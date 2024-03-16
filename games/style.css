@@ -1,36 +1,32 @@
 :root {
-    --border-color: hex(#ececec);
+    --border-color: hex(#ffff);
 }
 
 
 body {
-    background-color: #f6f7f9;
-    color: #1a1a1a;
+    background-color: #1a1a1a;
+    color: #ffffff;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #18181800;
-    padding: 0px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
     border-bottom: 1px solid var(--border-color);
-    position: fixed;
-    text-align: right;
-    width: 100%;
 }
 
 nav ul {
-    background-color: #181818;
+    background-color: #1a1a1a;
     list-style: none;
     padding: 0;
     margin: 0;
-    width: 99%; /* Extend the navbar across the entire viewport width */
-    text-align: right;
 }
 
 nav li {
-    background-color: #181818;
+    background-color: #1a1a1a;
     display: inline;
     margin-right: 20px;
 }
@@ -38,20 +34,19 @@ nav li {
 nav a {
     color: #ffffff;
     text-decoration: none;
-    background-color: #181818;
+    background-color: #1a1a1a;
     font-size: 18px;
-    width: 100%; /* Extend the navbar across the entire viewport width */
 }
 
 section {
-    background-color: #f6f7f9;
+    background-color: #1a1a1a;
     padding: 20px;
     text-align: center;
 }
 
 #hero {
     border-top: 1px solid var(--border-color);
-    background-color: #f6f7f9;
+    background-color: #1a1a1a;
     padding: 50px;
 }
 
@@ -61,7 +56,7 @@ section {
 #crew,
 #games {
     border-top: 1px solid var(--border-color);
-    background-color: #f6f7f9;
+    background-color: #1a1a1a;
     padding: 30px;
     margin-top: 20px;
     border-top: 1px solid var(--border-color);
@@ -69,13 +64,13 @@ section {
 
 #films img {
     border-top: 1px solid var(--border-color);
-    background-color: #f6f7f9;
+    background-color: #1a1a1a;
     margin-top: 20px;
 }
 
 footer {
-    background-color: #ececec;
-    padding: 4px;
+    background-color: #1a1a1a;
+    padding: 0px;
     text-align: center;
     position: bottom;
     bottom: 0;
