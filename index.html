@@ -85,10 +85,20 @@
       color: #b3ff00; /* Change color on hover */
     }
 
-    /* Add drop shadow to Finch.png */
-    #films img {
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.584); /* Adjust the values as needed */
-    }
+    #projects img {
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.584); /* Adjust the values as needed */
+            border-radius: 10px;
+        }
+
+        #projects .image1 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #projects .image1 img {
+            width: 85%;
+            margin-bottom: 20px;
+        }
 
     </style>
 </head>
@@ -106,7 +116,7 @@
         <nav>
             <ul>
                 <li><a href="#about">About Us</a></li>
-                <li><a href="#films">Our Films</a></li>
+                <li><a href="#projects">Our Projects</a></li>
                 <img src="logo.png" alt="Fruostie Films | Home" width="160" height="95">
                 <li><a href="#links">Our Links</a></li>
                 <li><a href="https://fruostiefilms.github.io/wiki/">The Wiki</a></li>
@@ -152,10 +162,21 @@
         <p><a href="https://www.youtube.com/@hunterhayes8270/">hmannslide</a> | Assistant Creative Officer</p>
     </section>
 
-    <section id="films">
-        <h2>Check out our latest films!</h2>
-        <img src="Finch.png" alt="An incite to the life of a gouldian finch..." width="800" height="480">
-        <p>Finch: A Documentary | Coming May 2024</p>
+    <section id="projects">
+        <h2>Check out our current projects!</h2>
+        <div class="image1">
+            <div class="project-item">
+                <img src="Finch2.png" alt="An incite to the life of a gouldian finch..." width="280" height="400">
+                <p>Finch: A Documentary | Coming May 2024 | Film</p>
+            </div>
+            <div class="project-item">
+                <img src="Nexus Vanguard.png" alt="A Book" width="280" height="400">
+                <p>Nexus Vanguard | Coming December 2024 | Book</p>
+            </div>
+        </div>
+    </section>
+    
+
     </section>
 
     </section>
